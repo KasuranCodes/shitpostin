@@ -79,7 +79,15 @@ int main(int argc, char *argv[])
 	if (argc < 3)
 	{
 		printf("Error: No commands passed\n");
-		printf("ix");
+		printf("ix\t| int | Image x Coordinate\n");
+		printf("iy\t| int | Image y Coordinate\n");
+		printf("tx\t| int | Text x Coordinate\n");
+		printf("ty\t| int | Text y Coordinate\n");
+		printf("t\t| str | \"Text\"\n");
+		printf("bk\t| str | Background Colour\n");
+		printf("fg\t| str | Text Colour\n");
+		printf("bg\t| str | Text Background Colour\n");
+		printf("img\t| str | Image Path\n");
 		return -1;
 	}
 	else
